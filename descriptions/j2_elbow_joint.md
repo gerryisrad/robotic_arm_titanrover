@@ -11,7 +11,8 @@ J2 is the elbow joint of the robotic arm. For this joint, it was imperative to c
 
 Developing a compact, large gearbox was the most challenging part of the robotic arm design, given strict size and weight constraints. I opted for a cycloidal gearbox, using a formula I developed to determine gear ratios, diameter, and height. By placing two cycloids opposite each other, vibrations from eccentric rotation were reduced.
 
-<img width="425" height="387" alt="image" src="https://github.com/user-attachments/assets/5745e6fd-f1e6-422c-b110-03b338ff14e4" />
+<img width="425" height="387" alt="image" src="https://github.com/user-attachments/assets/5745e6fd-f1e6-422c-b110-03b338ff14e4" /><img width="365" height="372" alt="image" src="https://github.com/user-attachments/assets/92fc2d83-abe7-4f76-a297-e82edd6b4b9c" />
+
 
 
 The chosen gear ratio for this subsystem was 14:1, meaning there were 15 rollers for every 14 lobes. Paired with the selected motor, the output torque was 36.4 N · m. I used metal pins joined by acetal disks to reduce friction, and the housing is made of nylon 6/6 to further minimize friction between components.
@@ -19,7 +20,11 @@ The chosen gear ratio for this subsystem was 14:1, meaning there were 15 rollers
 
 <img width="250" height="332" alt="image" src="https://github.com/user-attachments/assets/e5237385-35f5-4aba-ab25-8b62df000b5d" /> <img width="182" height="336" alt="image" src="https://github.com/user-attachments/assets/6da69159-4454-4eec-b8e7-f3c566102ac2" />
 
+<img width="438" height="369" alt="image" src="https://github.com/user-attachments/assets/9dfe779e-6ca6-4aba-8bd1-5cdc52f2c67e" /><img width="300" height="351" alt="image" src="https://github.com/user-attachments/assets/726d13d9-78ec-400e-b1e9-7c9767d3240d" />
 
+A MATLAB script was created to calculate the profile for a cycloid, with instructions on how to import and use it in MATLAB
+
+<img width="718" height="297" alt="image" src="https://github.com/user-attachments/assets/dfd1fe8e-f0da-4b9c-9021-8589fd5f1682" />
 
 
 **Vital Skills Utilized:**
